@@ -13,6 +13,6 @@ export class SuperheroesControllers{
 
     @Post()
     createSuperhero() {
-
+        return this.superheroesService.createSuperhero();
     }
 }

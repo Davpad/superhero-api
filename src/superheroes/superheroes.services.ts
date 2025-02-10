@@ -6,4 +6,8 @@ export class SuperheroesService{
     getSuperheroes(){
         return 'These are your heroes'
     }
+
+    createSuperhero(){
+        return 'Hero created'
+    }
 }
