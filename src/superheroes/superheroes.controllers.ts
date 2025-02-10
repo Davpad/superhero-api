@@ -3,10 +3,8 @@ import { SuperheroesService } from "./superheroes.services";
 
 @Controller('/superheroes')
 export class SuperheroesControllers{
-    superheroesService:SuperheroesService;
 
-    constructor(superheroesService:SuperheroesService){
-        this.superheroesService = superheroesService
+    constructor(private superheroesService:SuperheroesService){
     }
     @Get()
     getAllSuperheroes() {
