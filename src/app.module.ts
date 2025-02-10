@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { SuperherosModules } from './superheros/superheros.module';
+import { SuperherosModules } from './superheroes/superheroes.module';
 
 @Module({
   imports: [SuperherosModules],
