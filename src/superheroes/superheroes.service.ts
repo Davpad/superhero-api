@@ -12,6 +12,8 @@ export class SuperheroesService{
     getSuperheroes() {
     }
 
-    createSuperhero() {
+    createSuperhero(superhero:Superhero) {
+        console.log(superhero);
+        
     }
 }
