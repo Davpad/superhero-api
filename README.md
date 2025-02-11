@@ -30,6 +30,9 @@ For the validation of the score, I could have used a DTO but I wanted to make th
 
 ## If I had more time
 There are some features that I would had added if I had some more time:
+  
   -A PATCH method to update de score of the superheroes (superheroes can redeem themselves)
+  
   -A GET method to find superheroes with certain score
+  
   -An option to sort the superheroes by ascending or descending humility score
