@@ -13,6 +13,10 @@ export class SuperheroesService{
     }
 
     createSuperhero(superhero:Superhero) {
+        
+        if (superhero.humility_score > 10){
+            return "Superheroes' humility score can't be higher than 10. Superheroes are still humans!"
+        }
         console.log(superhero);
         
     }
