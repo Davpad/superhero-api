@@ -12,6 +12,7 @@ export class SuperheroesService{
     private superheroes : Superhero[] = []
 
     getSuperheroes() {
+       return this.superheroes.sort((a, b)=> a.humility_score < b.humility_score? -1 : 1)
     }
 
     createSuperhero(superhero: Superhero) {
